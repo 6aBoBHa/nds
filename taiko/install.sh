@@ -1,8 +1,6 @@
 #!/bin/bash
 
 echo "-----------------------------------------------------------------------------"
-curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/doubletop.sh | bash
-echo "-----------------------------------------------------------------------------"
 echo "Устанавливаем переменные"
 echo "-----------------------------------------------------------------------------"
 # Удаление старых значений переменных
@@ -33,8 +31,8 @@ source $HOME/.bash_profile
 echo "-----------------------------------------------------------------------------"
 echo "Устанавливаем зависимости"
 echo "-----------------------------------------------------------------------------"
-bash <(curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/main.sh) &>/dev/null
-bash <(curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/docker.sh) &>/dev/null
+bash <(curl -s https://raw.githubusercontent.com/6aBoBHa/tls/main/main.sh) &>/dev/null
+bash <(curl -s https://raw.githubusercontent.com/6aBoBHa/tls/tools/main/docker.sh) &>/dev/null
 echo "-----------------------------------------------------------------------------"
 echo "Клонируем репрозиторий"
 echo "-----------------------------------------------------------------------------"
