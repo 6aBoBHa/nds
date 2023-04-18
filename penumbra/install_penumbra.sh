@@ -1,19 +1,5 @@
 #!/bin/bash
 
-function logo {
-  curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/doubletop.sh | bash
-}
-
-function line {
-  echo -e "-----------------------------------------------------------------------------"
-}
-
-function colors {
-  GREEN="\e[1m\e[32m"
-  RED="\e[1m\e[39m"
-  NORMAL="\e[0m"
-}
-
 function install_tools {
   curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/ufw.sh | bash &>/dev/null
   # curl -s https://raw.githubusercontent.com/DOUBLE-TOP/tools/main/rust.sh | bash &>/dev/null
